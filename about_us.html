@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <title>About us</title>
+            <style>
+                body {
+	 font-size: 16px;
+	 line-height: 1.75;
+}
+ #timeline {
+	 display: flex;
+	 background-color: #031625;
+}
+ #timeline:hover .tl-item {
+	 width: 23.3333%;
+}
+ .tl-item {
+	 transform: translate3d(0, 0, 0);
+	 position: relative;
+	 width: 25%;
+	 height: 100vh;
+	 min-height: 600px;
+	 color: #fff;
+	 overflow: hidden;
+	 transition: width 0.5s ease;
+}
+ .tl-item:before, .tl-item:after {
+	 transform: translate3d(0, 0, 0);
+	 content: '';
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 width: 100%;
+	 height: 100%;
+}
+ .tl-item:after {
+	 background: rgba(3, 22, 37, 0.85);
+	 opacity: 1;
+	 transition: opacity 0.5s ease;
+}
+ .tl-item:before {
+	 background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 75%);
+	 z-index: 1;
+	 opacity: 0;
+	 transform: translate3d(0, 0, 0) translateY(50%);
+	 transition: opacity 0.5s ease, transform 0.5s ease;
+}
+ .tl-item:hover {
+	 width: 30% !important;
+}
+ .tl-item:hover:after {
+	 opacity: 0;
+}
+ .tl-item:hover:before {
+	 opacity: 1;
+	 transform: translate3d(0, 0, 0) translateY(0);
+	 transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+ .tl-item:hover .tl-content {
+	 opacity: 1;
+	 transform: translateY(0);
+	 transition: all 0.75s ease 0.5s;
+}
+ .tl-item:hover .tl-bg {
+	 filter: grayscale(0);
+}
+ .tl-content {
+	 transform: translate3d(0, 0, 0) translateY(25px);
+	 position: relative;
+	 z-index: 1;
+	 text-align: center;
+	 margin: 0 1.618em;
+	 top: 55%;
+	 opacity: 0;
+}
+ .tl-content h1 {
+	 text-transform: uppercase;
+	 color: #1779cf;
+	 font-size: 1.44rem;
+	 font-weight: normal;
+}
+ .tl-year {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translateX(-50%) translateY(-50%);
+	 z-index: 1;
+	 border-top: 1px solid #fff;
+	 border-bottom: 1px solid #fff;
+}
+ .tl-year p {
+	 font-size: 1.728rem;
+	 line-height: 0;
+}
+ .tl-bg {
+	 transform: translate3d(0, 0, 0);
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 top: 0;
+	 left: 0;
+	 background-size: cover;
+	 background-position: center center;
+	 transition: filter 0.5s ease;
+	 filter: grayscale(100%);
+}
+ 
+            </style>
+            <link rel="stylesheet" href="style.css">
+              
+            <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header><h1 style="font-weight:300; font-size:200px;">Naividyam</h1></header>
+<!-- navbar -->
+<nav>
+<ul>
+  <li><a href="index.html" target="_blank">Home</a></li>
+  <li class="active"><a href="about_us.html" target="_blank">About us</a></li>
+  <li><a href="menu.html" target="_blank">Menu</a></li>
+  <li><a href="gallery.html" target="_blank">Gallery</a></li>
+  <li><a href="contact_us.html" target="_blank">Contact us</a></li>
+  <li><a href="health_tips.html" target="_blank">Health tips</a></li>
+</ul>
+</nav>
+<section id="timeline">
+  
+    <div class="tl-item">
+      
+      <div class="tl-bg" style="background-image: url(https://5.imimg.com/data5/HW/OL/ML/SELLER-58381640/mobile-food-kiosk-design-ideas-6-500x500.jpg)"></div>
+      
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">2011</p>
+      </div>
+  
+      <div class="tl-content">
+        <h1>Started as a food truck</h1>
+        <p>Yes,its true!We did start with a food truck.All three creaters of naividyam came together with their specialities and experties in various branches of Indian cuisine.With
+            little investment but enormous dream to spread their taste of India far and wide.
+        </p>
+      </div>
+  
+    </div>
+  
+    <div class="tl-item">
+      
+      <div class="tl-bg" style="background-image: url(https://im1.dineout.co.in/images/uploads/restaurant/sharpen/2/e/d/p29410-15743151555dd62493bdda1.jpg?tr=tr:n-xlarge)"></div>
+      
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">2013</p>
+      </div>
+  
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">Spread across India,Lavishly!</h1>
+        <p>In no time,our taste became popular.Our recipes and franchise were bought across several states in India.There was heavy flooding of investors across all food branches.This lead to the 
+            beginning of Naividyam chain of lavish restaurants</p>
+      </div>
+  
+    </div>
+  
+    <div class="tl-item">
+      
+      <div class="tl-bg" style="background-image: url(https://motionarray.imgix.net/preview-90395-oPcEchgX5E-high_0008.jpg)"></div>
+      
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">2018</p>
+      </div>
+  
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">Spread to every corner of the world!</h1>
+    <p>After receiving 5 stars from HRACC.Naividyam collaborated with michelin starred chefs for further innovations and with several online platforms,Our food chain spread throughout the world.
+           Starting with our first international franchise in Burjh Khalifa,Dubai.
+        </p>
+      </div>
+  
+    </div>
+  
+    <div class="tl-item">
+      
+      <div class="tl-bg" style="background-image: url(https://i.ytimg.com/vi/VnVbzSr0L2U/maxresdefault.jpg)"></div>
+      
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">2020</p>
+      </div>
+  
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">With great taste came great technology</h1>
+        <p>We did not stop only at innovations in food but we introduced tech oriented environment to our restaurant becoming the first chain to have complete AI services</p>
+      </div>
+  
+    </div>
+  </section>
+  <table class="table table-borderless table-dark">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+       <th>Our Branches</th>
+       <th></th>
+       <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mumbai</td>
+        <td>Delhi</td>
+        <td>Ahemdabad</td>
+        <td>Chennai</td>
+        <td>Banglore</td>
+      </tr>
+      <tr>
+        <td>England</td>
+        <td>Dubai</td>
+        <td>Pittsburgh</td>
+        <td>New York</td>
+        <td>Bejing</td>
+      </tr>
+      <tr>
+        <td>London</td>
+        <td>Tokyo</td>
+        <td>Wellingoton</td>
+        <td>California</td>
+        <td>Seattle</td>
+      </tr>
+    </tbody>
+  </table>
+    </body>
+</html>
