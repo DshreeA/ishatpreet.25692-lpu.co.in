@@ -1,0 +1,231 @@
+body {
+      height:100%;
+      width:100%;
+      margin:0px;
+      padding:0px;
+      font-family: 'Cinzel Decorative', cursive;
+      background-color:#bd9f2175;
+    }
+header {
+       height:300px;
+       width:100%;
+       background-image: url("offwhitefloral.png");
+       background-position:center;
+       background-repeat:no-repeat;
+       background-size:cover;
+       text-align:center;
+}
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+li {
+        float: left;
+        border-right: 1px solid #bbb;
+      }
+li:last-child {
+        border-right: none;
+      }
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:underline;
+        transition:all 1s;
+      }
+li a:hover {
+        background-color: #111;
+        transform:scale(1.1);
+      }
+.active {
+        background-color:#af4c57;
+      }
+img {
+    height:300px;
+    width:300px;
+    border:10px solid rgb(129, 64, 17);
+    margin:30px;
+    flex-wrap:wrap;
+    transition:all 1s;   
+   }
+img:hover {
+    transform:scale(1.1);
+    border:15px solid rgb(170, 21, 10);
+    cursor: pointer;
+}
+.welcome {
+         border:3px solid black;
+         background-color:rgba(236, 134, 17, 0.98);
+         height:550px;
+         width:500px;
+         text-align:center;
+         color:white;
+         display: inline-block;
+         margin:30px;
+         transition:all 1s;
+         float:left;
+}
+.welcome:hover{
+  transform:scale(1.1);
+  border:8px solid rgb(236, 134, 17, 0.98);
+  cursor: pointer;
+}
+.underline{
+  text-decoration:underline;
+  text-decoration-color:white;
+  font-weight:normal;
+}
+.DoTD{
+  float: left;
+  border:3px solid black;
+  background-color:rgba(49, 121, 4, 0.87);
+  height:200px;
+  width:1000px;
+  text-align:center;
+  color:white;
+  display: inline-block;
+  margin:30px;
+  transition:all 1s;
+}
+.DoTD:hover{
+  transform:scale(1.1);
+  border:8px solid rgb(236, 134, 17, 0.98);
+  cursor: pointer;
+}
+.DoTDimg{
+    display:inline-block;
+    content: url("https://i1.wp.com/vegecravings.com/wp-content/uploads/2016/07/veg-biryani-recipe-step-by-step-instructions.jpg?fit=3563%2C2976&quality=65&strip=all&ssl=1");
+    float:right;
+    height:190px;
+   width:300px;
+    border:5px solid rgb(129, 64, 17);
+    margin:0px;
+    transition:all 1s;   
+}
+.DoTDimg:hover{
+  transform:scale(1.1);
+  border:10px solid rgb(170, 21, 10);
+  cursor: pointer;
+}
+.feedback{
+  float: left;
+  font-weight: normal;
+  background-color:rgba(121, 4, 28, 0.85);
+  border:3px solid black;
+  height:200px;
+  width:1000px;
+  text-align:center;
+  color:white;
+  display: inline-block;
+  margin:30px;
+  transition:all 1s;
+}
+.feedback:hover{
+  transform:scale(1.1);
+  border:8px solid rgb(49, 121, 4, 0.87);
+}
+p {
+    font-size:x-large;
+}
+input {
+  cursor:pointer;
+}
+textarea {
+  text-align: center;
+  margin-top:0px;
+  font-size: x-large;
+}
+textarea:hover{
+  cursor: pointer;
+}
+.sploffer{
+         border:3px solid black;
+         background-color:rgba(5, 49, 95, 0.92);
+         height:550px;
+         width:200px;
+         margin:30px;
+         margin-left:40px;
+         margin-right:10px;
+         text-align:center;
+         color:white;
+         display: inline-block;
+         transition:all 1s;
+}
+.sploffer:hover{
+  transform:scale(1.1);
+  border:5px solid rgba(5, 49, 95, 0.92);
+  border-left:15px solid rgba(5, 49, 95, 0.92);
+  border-right:15px solid rgba(5, 49, 95, 0.92); ;
+  margin-left:10px;
+  cursor: pointer;
+}
+span {
+  font-size:x-large;
+  margin-right:30px;
+}
+.bullets{
+        margin-bottom:30px;
+        margin-top:0px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  display: block;
+  font-family:'Cinzel Decorative', cursive;
+}
+.button:hover{
+  cursor:pointer;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  display: inline-block;
+  max-width: 300px;
+  margin:10px;
+  text-align: center;
+  font-family:'Cinzel Decorative', cursive;
+  background-color: seashell;
+  transition: all 1s;
+}
+.card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.col-container {
+  display:table; 
+  width: 100%;
+}
+
+.col {
+  display:table-cell; /* Make elements inside the container behave like table cells */
+}
